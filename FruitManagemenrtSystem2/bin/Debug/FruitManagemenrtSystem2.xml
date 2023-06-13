@@ -1,0 +1,176 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FruitManagemenrtSystem2
+</name>
+</assembly>
+<members>
+<member name="T:FruitManagemenrtSystem2.FMSDataSet.ProductDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet.ProductDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet.ProductDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSetTableAdapters.ProductDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:FruitManagemenrtSystem2.FMSDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FruitManagemenrtSystem2.FMSDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:FruitManagemenrtSystem2.FMSDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FruitManagemenrtSystem2.FMSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:FruitManagemenrtSystem2.FMSDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FruitManagemenrtSystem2.FMSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:FruitManagemenrtSystem2.FMSDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:FruitManagemenrtSystem2.FMSDataSetTableAdapters.TableAdapterManager.UpdateAll(FruitManagemenrtSystem2.FMSDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1.ProductDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1.PurchaseOrderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1.RestockingDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1.SupplierDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1.ProductDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1.PurchaseOrderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1.RestockingRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1.SupplierDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1.ProductDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1.PurchaseOrderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1.RestockingRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1.SupplierDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1TableAdapters.ProductDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1TableAdapters.PurchaseOrderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1TableAdapters.RestockingTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1TableAdapters.SupplierDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:FruitManagemenrtSystem2.FMSDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(FruitManagemenrtSystem2.FMSDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:FruitManagemenrtSystem2.FMSDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(FruitManagemenrtSystem2.FMSDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:FruitManagemenrtSystem2.FMSDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(FruitManagemenrtSystem2.FMSDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:FruitManagemenrtSystem2.FMSDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:FruitManagemenrtSystem2.FMSDataSet1TableAdapters.TableAdapterManager.UpdateAll(FruitManagemenrtSystem2.FMSDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.FMSDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:FruitManagemenrtSystem2.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:FruitManagemenrtSystem2.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:FruitManagemenrtSystem2.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

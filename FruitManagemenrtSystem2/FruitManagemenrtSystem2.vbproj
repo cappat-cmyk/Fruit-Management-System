@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78858CF9-653E-488A-8694-4543C5D65DD8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>FruitManagemenrtSystem2.My.MyApplication</StartupObject>
+    <RootNamespace>FruitManagemenrtSystem2</RootNamespace>
+    <AssemblyName>FruitManagemenrtSystem2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FruitManagemenrtSystem2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FruitManagemenrtSystem2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="databaseconnection.vb" />
+    <Compile Include="FMSDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FMSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FMSDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FMSDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ProductDetails.Designer.vb">
+      <DependentUpon>ProductDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RG_ProductReport.Designer.vb">
+      <DependentUpon>RG_ProductReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RG_ProductReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qry_Product.Designer.vb">
+      <DependentUpon>Qry_Product.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Qry_Product.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qry_PurchaseOrder.Designer.vb">
+      <DependentUpon>Qry_PurchaseOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Qry_PurchaseOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qry_Supplier.Designer.vb">
+      <DependentUpon>Qry_Supplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Qry_Supplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RG_PurchaseReport.Designer.vb">
+      <DependentUpon>RG_PurchaseReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RG_PurchaseReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RG_StockReport.Designer.vb">
+      <DependentUpon>RG_StockReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RG_StockReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RG_SupplierReport.Designer.vb">
+      <DependentUpon>RG_SupplierReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RG_SupplierReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplierDetails.Designer.vb">
+      <DependentUpon>SupplierDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tr_SupplierTransaction.Designer.vb">
+      <DependentUpon>Tr_SupplierTransaction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tr_SupplierTransaction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tr_PurchaseOrder.Designer.vb">
+      <DependentUpon>Tr_PurchaseOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tr_PurchaseOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductDetails.resx">
+      <DependentUpon>ProductDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductReport.rdlc" />
+    <EmbeddedResource Include="PurchaseReport.rdlc" />
+    <EmbeddedResource Include="RG_StockReport.resx">
+      <DependentUpon>RG_StockReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockReport.rdlc" />
+    <EmbeddedResource Include="RG_ProductReport.resx">
+      <DependentUpon>RG_ProductReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qry_Product.resx">
+      <DependentUpon>Qry_Product.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qry_PurchaseOrder.resx">
+      <DependentUpon>Qry_PurchaseOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qry_Supplier.resx">
+      <DependentUpon>Qry_Supplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RG_PurchaseReport.resx">
+      <DependentUpon>RG_PurchaseReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RG_SupplierReport.rdlc" />
+    <EmbeddedResource Include="RG_SupplierReport.resx">
+      <DependentUpon>RG_SupplierReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierDetails.resx">
+      <DependentUpon>SupplierDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tr_SupplierTransaction.resx">
+      <DependentUpon>Tr_SupplierTransaction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tr_PurchaseOrder.resx">
+      <DependentUpon>Tr_PurchaseOrder.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FMSDataSet.xsc">
+      <DependentUpon>FMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FMSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FMSDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FMSDataSet.xss">
+      <DependentUpon>FMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FMSDataSet1.xsc">
+      <DependentUpon>FMSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FMSDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FMSDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FMSDataSet1.xss">
+      <DependentUpon>FMSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{2A75196C-D9EB-4129-B803-931327F72D5C}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ADOMD">
+      <Guid>{22813728-8BD3-11D0-B4EF-00A0C9138CA4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
